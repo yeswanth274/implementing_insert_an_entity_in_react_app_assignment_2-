@@ -1,0 +1,35 @@
+.add-movie-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-movie-container h2 {
+    text-align: center;
+  }
+  
+  .add-movie-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-movie-container input, .add-movie-container select, .add-movie-container textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
